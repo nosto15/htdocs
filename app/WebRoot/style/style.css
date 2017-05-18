@@ -1,0 +1,217 @@
+@import "http://webfonts.ru/import/americantext.css"; /*font-family: 'American TextC';*/
+@import "http://webfonts.ru/import/bukhariscript.css"; /*font-family: 'Bukhari Script';*/
+@import "http://webfonts.ru/import/leokadia.css"; /*font-family: 'Leokadia Deco';*/
+@import "http://fonts.fontstorage.com/import/intro.css";/*font-family: 'Intro';*/
+@import "http://fonts.fontstorage.com/import/introcondensed.css";/*font-family: 'Intro Cond';*/
+body{
+	padding: 0;
+	margin: 0;
+	padding-bottom: ;
+}
+
+
+.clear
+{
+    clear: both;
+}
+
+
+.container
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+}
+
+.content{padding-top: 80px; }
+
+.fon_header{
+	width: auto;
+	background-color: #333F45;
+
+}
+
+.header_content{
+	height: 0px;
+}
+
+.nav {
+    position: relative;
+    display: block;
+    float: left;
+    list-style: none;
+    font-family: 'intro', sans-serif;
+}
+.col-md-8
+{
+	font-family: 'intro', sans-serif;
+	text-align: center;
+}
+.header_spisok{
+	float: left;
+	margin-top: 15px;
+	margin-left: 200px;
+	font-family: 'intro', sans-serif;
+}
+
+.header_spisok ul{
+	list-style-type: none;
+	margin-top: 30px;
+	padding-left: 0;
+}
+
+.header_spisok li{
+	display: inline;
+	margin-right: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid #212121;
+	font-size: 35px;
+}
+.header_spisok a{
+	text-decoration: none;
+    color: #ff0033;
+}
+.header_spisok a:hover
+{
+    color: #ea0477;
+}
+
+.tablishapoick{
+    font-family: 'intro', sans-serif;
+    height: 35px;
+    background: #3d4b52;
+    color: #cd853f;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar-search{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.zagolovok {
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 45px;
+    font-family: 'intro', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 30px;
+    font-family: 'intro', sans-serif;
+}
+
+.knopka {
+    font-family: 'intro', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #868480;
+    background: white;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 25px;
+}
+a
+{
+    text-decoration: none;
+}
+.telo-image
+{
+    margin-top: -130px;
+}
+.zag{
+    height: 80px;
+    clear: both;
+}
+
+.forma
+{
+    width: 700px;
+    min-height: 150px;
+    float: right;
+    margin-top: 80px;
+}
+.knopkashifra
+{
+    font-family: 'intro', sans-serif;
+    font-size: 20px;
+    color: #868480;
+    background: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 25px;
+    float: right;
+    margin-top: 50px;
+    margin-left: -80px;
+}
+.otvet p
+{
+    margin-top: 230px;
+    font-family: 'intro', sans-serif;
+    font-size: 50px;
+}
+
+.bullet {
+margin-left: 300px;
+list-style: none;
+counter-reset: li;
+width: 380px;
+font-size: 20px;
+}
+.bullet li {
+position: relative;
+margin-bottom: 1.5em;
+border: 3px solid grey;
+padding: 0.6em;
+border-radius: 15px;
+background: black;
+font-family: 'intro', sans-serif;
+}
+
+.bullet li:before {
+position: absolute;
+top: -0.7em;
+padding-left: 0.4em;
+padding-right: 0.4em;
+font-size: 20px;
+font-weight: bold;
+color: #DCC24B;
+background: black;
+border-radius: 50%;
+counter-increment: li;
+content: counter(li);
+}
+.bullet a:link
+{
+	color: #ea0477;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+.bullet a:hover
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bullet a:visited
+{
+	color: #00c9a1; font-weight: 100;text-decoration: none;
+}

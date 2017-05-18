@@ -1,0 +1,2 @@
+[01-Apr-2017 13:31:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\app\View\Pages\articles.php on line 24
+[01-Apr-2017 13:31:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\app\View\_element\menu.php on line 2
