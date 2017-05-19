@@ -3,7 +3,7 @@
  <head>
  <title><?php echo $title; ?></title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="http://localhost/style/style.css"  />
+  <link rel="stylesheet" type="text/css" href="http://localhost/style/style.css" href="http://localhost/style/animate.css"  />
   <?php
 	if(isset($styleC))
 		echo '<link rel="stylesheet" type="text/css" href="'.SERVER.'style/style1.css" />'
